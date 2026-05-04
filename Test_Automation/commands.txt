@@ -1,0 +1,9 @@
+Install the dependencies from the project root:
+
+python -m pip install --upgrade pip
+pip install openpyxl playwright
+playwright install
+
+--------------------------------------------------
+cd Test_Automation
+python IT23181892.py --excel "IT23181892.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 5000 --type-delay-ms 80 --slow-mo-ms 200 --save-every 1 --keep-open
